@@ -16,7 +16,7 @@ function integrate(f, a, b, n)
 end
 
 """
-Calculate Fourier coefficient for term with frequency `n` with function `f`.
+Calculate Fourier coefficient for term with frequency `n` of function `f`.
 """
 function c(f, n)
     g(t)=f(t)*exp(-2π*im*n*t)
